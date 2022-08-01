@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(163, 161, 161);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -8,9 +9,20 @@ body {
     width: 630px;
 
     background-color: black;
-    border: 10px solid brown;
+    border: 10px solid rgba(85, 59, 3, 0.801);
 
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+
+    background-color: rgb(163, 161, 161);
+    border-radius: 50%;
+
+    margin: 5px;
+    border: 5px solid rgba(85, 59, 3, 0.801);
 }
