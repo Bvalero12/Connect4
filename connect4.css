@@ -26,3 +26,11 @@ body {
     margin: 5px;
     border: 5px solid rgba(85, 59, 3, 0.801);
 }
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
